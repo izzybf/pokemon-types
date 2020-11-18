@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Fire Type
   create: all
-  match: " docs / fire/**/*"
+  match: "**/fire"
 - type: directory
   path: content
   label: Pages
