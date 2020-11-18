@@ -8,7 +8,7 @@ sections:
   path: pokemon-types/docs
   label: Fire Type
   create: all
-  match: fire/**
+  match: fire
 - type: directory
   path: content
   label: Pages
