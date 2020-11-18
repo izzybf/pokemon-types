@@ -5,6 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: docs
+  label: About
+  create: all
+  match: "**/*.md"
+- type: directory
+  path: docs/water
+  label: Water Type
+  create: all
+  match: "**/*.md"
+- type: directory
   path: docs/fire
   label: Fire Type
   create: all
