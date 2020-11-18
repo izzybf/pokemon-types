@@ -4,27 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Front Matter
-- type: document
-  path: izzybf/pokemon-types/docs/about.md
-  label: Overview
-- type: heading
-  label: Water Type
-- type: document
-  path: izzybf/pokemon-types/docs/water/water-type-pokemon.md
-  label: Water Type
-- type: document
-  path: pokemon-types/docs/water/water-examples.md
-  label: Water Type Examples
-- type: heading
+- type: directory
+  path: docs/fire
   label: Fire Type
-- type: document
-  path: pokemon-types/docs/fire/fire-type.md
-  label: Fire Type
-- type: document
-  path: pokemon-types/docs/fire/fire-examples.md
-  label: Fire Type Examples
+  create: all
+  match: "**/*.md"
 - type: directory
   path: content
   label: Pages
