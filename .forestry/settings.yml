@@ -7,12 +7,12 @@ sections:
 - type: heading
   label: Front Matter
 - type: document
-  path: izzybf/pokemon-types/docs/about.md
+  path: izzybf/pokemon-types/blob/main/docs/about.md
   label: Overview
 - type: heading
   label: Water Type
 - type: document
-  path: pokemon-types/docs/water/water-type-pokemon.md
+  path: izzybf/pokemon-types/docs/water/water-type-pokemon.md
   label: Water Type
 - type: document
   path: pokemon-types/docs/water/water-examples.md
