@@ -8,7 +8,7 @@ sections:
   path: docs
   label: About
   create: all
-  match: "**/*.md"
+  match: "*.md"
 - type: directory
   path: docs/water
   label: Water Type
