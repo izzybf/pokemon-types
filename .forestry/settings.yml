@@ -7,29 +7,24 @@ sections:
 - type: heading
   label: Front Matter
 - type: document
-  path: pokemon-types/docs/about.md
+  path: izzybf/pokemon-types/docs/about.md
   label: Overview
-  match: "**/*"
 - type: heading
   label: Water Type
 - type: document
   path: pokemon-types/docs/water/water-type-pokemon.md
   label: Water Type
-  match: "**/*"
 - type: document
   path: pokemon-types/docs/water/water-examples.md
   label: Water Type Examples
-  match: "**/*"
 - type: heading
   label: Fire Type
 - type: document
   path: pokemon-types/docs/fire/fire-type.md
   label: Fire Type
-  match: "**/*"
 - type: document
   path: pokemon-types/docs/fire/fire-examples.md
   label: Fire Type Examples
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
