@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: pokemon-types/docs
+  path: ''
   label: Fire Type
   create: all
-  match: pokemon-types/docs/
+  match: fire
 - type: directory
   path: content
   label: Pages
